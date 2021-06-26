@@ -34,7 +34,7 @@ function setup() {
      road.shapeColor="black";
      road.scale=1.25;
     }
-    if(i%4===0)//adding road
+    if(i%2===0)//adding road
     {
      var sea= createSprite(683,height-150-(i*400)-grassHeight,width,10,);
      sea.addAnimation("sea",seaAnimation);
