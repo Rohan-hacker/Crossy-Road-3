@@ -39,12 +39,12 @@ function setup() {
      var sea= createSprite(683,height-150-(i*400)-grassHeight,width,10,);
      sea.addAnimation("sea",seaAnimation);
      sea.shapeColor="black";
-     sea.scale=0.5;
+     sea.scale=0.6;
      sea.depth=road.depth-21;
     }
     bottomGrass1.addAnimation("grass",grassAnimation);
     bottomGrass1.shapeColor = "green";
-    bottomGrass1.scale=1.2;
+    bottomGrass1.scale=1.02;
     bottomGrass1.depth=bottomGrass1.depth-20;
   }
   //To create rows of car
