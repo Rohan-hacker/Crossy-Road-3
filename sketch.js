@@ -8,14 +8,14 @@ var school;
 var background, backgroundImage
 function preload()
 {
-  carAnimation1=loadAnimation("images/car1.png");
-  carAnimation2=loadAnimation("images/car2.png");
-  playerAnimation=loadAnimation("images/cr playerrun 1.png","images/cr playerrun 2.png","images/cr playerrun 3.png","images/cr playerrun 4.png");
-  logAnimation=loadAnimation("images/log.png");
-  grassAnimation=loadAnimation("images/grass.png");
-  roadAnimation=loadAnimation("images/road.png");
-  seaAnimation=loadAnimation("images/sea1.png","images/sea1.png");
-  //backgroundImage=loadAnimation("images/sea1.png","images/sea1.png");
+  carAnimation1=loadAnimation("car1.png");
+  carAnimation2=loadAnimation("car2.png");
+  playerAnimation=loadAnimation("cr playerrun 1.png","cr playerrun 2.png","cr playerrun 3.png","cr playerrun 4.png");
+  logAnimation=loadAnimation("log.png");
+  grassAnimation=loadAnimation("grass.png");
+  roadAnimation=loadAnimation("road.png");
+  seaAnimation=loadAnimation("sea1.png","sea1.png");
+  //backgroundImage=loadAnimation("sea1.png","sea1.png");
 }
 
 function setup() {
