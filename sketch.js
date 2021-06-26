@@ -40,7 +40,7 @@ function setup() {
      sea.addAnimation("sea",seaAnimation);
      sea.shapeColor="black";
      sea.scale=0.6;
-     sea.depth=road.depth-21;
+     sea.depth=road.depth-25;
     }
     bottomGrass1.addAnimation("grass",grassAnimation);
     bottomGrass1.shapeColor = "green";
