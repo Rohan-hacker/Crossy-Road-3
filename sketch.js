@@ -5,7 +5,6 @@ var grassHeight = 100;
 var gameState = "play";
 var carAnimation, logAnimation, roadAnimation, seaAnimation, playerAnimation, grassAnimation;
 var school;
-var background, backgroundImage
 function preload()
 {
   carAnimation1=loadAnimation("car1.png");
@@ -23,7 +22,7 @@ function setup() {
   carGroup1 = new Group();
   logGroup1 = new Group();
 
-  background=createSprite(windowWidth+87,displayHeight);
+  //background=createSprite(windowWidth+87,displayHeight);
   
   //Grasses where player can rest
   for(var i=0;i<6;i++){
